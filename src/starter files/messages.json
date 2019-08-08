@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "from": "Douglas",
+        "subject": "JavaScript: The Good Parts",
+        "unread": true
+    },
+    {
+        "id": 2,
+        "from": "Deborah",
+        "subject": "Angular Reactive Forms",
+        "unread": false
+    },
+    {
+        "id": 3,
+        "from": "Dan",
+        "subject": "React with Redux",
+        "unread": false
+    },
+    {
+        "id": 4,
+        "from": "John",
+        "subject": "Advanced TypeScript",
+        "unread": false
+    }
+]

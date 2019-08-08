@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PESI Message Client</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="message-list">
+            <h1>Messages</h1>
+
+            <div class="message-actions">
+                <button disabled>Mark Read</button>
+                <button>Mark Unread</button>
+            </div>
+
+            <div class="message message--unread message--first">
+                <div class="message__from">Douglas</div>
+                <div class="message__subject">JavaScript: The Good Parts</div>
+            </div>
+
+            <div class="message">
+                <div class="message__from">Deborah</div>
+                <div class="message__subject">Angular Reactive Forms</div>
+            </div>
+
+            <div class="message message--selected">
+                <div class="message__from">Dan</div>
+                <div class="message__subject">React with Redux</div>
+            </div>
+
+            <div class="message">
+                <div class="message__from">John</div>
+                <div class="message__subject">TypeScript Fundamentals</div>
+            </div>
+
+            <p class="message-list__unread-count">1 unread message</p>
+        </div>
+    </body>
+</html>
