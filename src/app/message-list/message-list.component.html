@@ -1,1 +1,13 @@
-<p>message-list works!</p>
+<div class="message-list">
+  <h1>Messages</h1>
+  <div id="message-actions">
+
+  </div>
+
+  <div *ngFor="let message of messages" class="message" [ngClass]="{'selected': message.selected}" (click)="handleDivClick(message)">
+    <p class="message-from" [ngClass]="{'unread': message.unread}">{{ message.from }}</p>
+    <p class="message-subject" [ngClass]="{'unread': message.unread}">{{ message.subject }}</p>
+  </div>
+
+  <div id="unread-messages"><span>{{unreadMessages}} unread message</span><span *ngIf="unreadMessages !== 1">s</span></div>
+</div>
